@@ -15,5 +15,5 @@ if [ -f "${name}" ] || [ -d "${name}" ]; then
 fi
 
 mkdir -p "${name}/part_1"
-cp -r day_01/part_1/* "${name}/part_1/"
+cp -r day_01/part_1/* "${name}/part_1/" && cd "${name}" && code .
 
